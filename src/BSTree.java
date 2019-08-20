@@ -28,6 +28,15 @@ public class BSTree {
         }
     }
 
+    public boolean contains(int value){
+        //Todo Home Task
+        return false;
+    }
+
+    public void remove(int value){
+        //Todo HomeTask
+    }
+
     public void traverse(Consumer<Integer> consumer){
         traverseRecursive(root,consumer);
     }
